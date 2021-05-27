@@ -1,4 +1,6 @@
-# #1 Hello World:  Minimum API (NODE)
+# #1 Hello World:  Minimum API
+
+<img src="https://raw.githubusercontent.com/robsonkades/vscode-express-snippets/master/images/node.png" alt="linguagem" width="80px"/>
 
 ### **Problemática**
 criar uma API que rode na porta 3333, que tenha a rota GET /welcome e retorne um status 200 e um JSON com a seguinte estrutura:
