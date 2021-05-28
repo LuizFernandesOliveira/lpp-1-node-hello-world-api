@@ -12,4 +12,20 @@ criar uma API que rode na porta 3333, que tenha a rota GET /welcome e retorne um
 ```
 ### **Screenshot**
 
-![screenshot](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/bd890d65-032e-4e7b-8940-5599fd14d606/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210527%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210527T151752Z&X-Amz-Expires=86400&X-Amz-Signature=a812a6f3737534558637d4a23909bfa4d5d9aa109b1a26cff40331c80640c49b&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
+![screenshot](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/bd890d65-032e-4e7b-8940-5599fd14d606/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210528%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210528T154622Z&X-Amz-Expires=86400&X-Amz-Signature=16265f74630c781cae195bce3fa4075df69401d6a896f3d91b187df5052a21c9&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
+
+
+### **Starting**
+
+- instalar dependencias do projeto
+	```shellscript
+	yarn install
+	```
+- inicializar aplicação
+  ```shellscript
+	node index.js
+	```
+- testar  aplicação
+  ```shellscript
+	yarn jest --runInBand
+	```
